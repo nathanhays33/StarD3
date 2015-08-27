@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>controls</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="controls.css" rel="stylesheet" />
+    <script src="controls.js"></script>
+</head>
+<body>
+    <div class="controls fragment" style="height:100%">
+        <header aria-label="Header content" role="banner">
+			<h1 class="titlearea win-type-ellipsis">
+			<button data-win-control="WinJS.UI.BackButton"></button>
+                <span class="pagetitle">Star Parameters</span>
+
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+				<div id="color" class="control" >
+					<h2>Color:</h2>
+					<select id="color">
+						<option value="RA">Right Ascension</option>
+						<option value="Dec">Declination</option>
+						<option value="Distance">Distance (parsecs)</option>
+						<option value="PMRA">Proper Motion RA</option>
+						<option value="PMDec">Proper Motion per JC</option>
+						<option value="RV"> Radial Velocity</option>
+						<option value="Mag">Visual Magnitude</option>
+						<option value="AbsMag">Absolute Magnitude</option>
+						<option value="Spectrum">Spectrum</option>
+						<option value="ColorIndex">Color Index</option>
+						<option value="X"> X Coordinate</option>
+						<option value="Y"> Y Coordinate</option>
+						<option value="Z">Z Coordinate</option>
+						<option value="VX">X Velocity</option>
+						<option value="VY">Y Velocity</option>
+						<option value="VZ">Z Velocity</option>
+                   </select>
+				</div>
+				<div id="label" class="control">
+					<h2>Label:</h2>
+					<select id=" label">
+						<option value="ProperName">Proper Name</option>
+						<option value="BayerFlamsteed">Bayer Flmsteed</option>
+						<option value="Gliese">Distance (parsecs)</option>
+						<option value="HR">Proper Motion RA</option>
+						<option value="HD">Proper Motion per JC</option>
+						<option value="HIP"> Radial Velocity</option>
+						<option value="null">None</option>
+                   </select>
+				</div>
+				<div id="X" class="control">
+				     <h2>X Axis:</h2>
+					 <select id="x">
+						<option value="RA">Right Ascension</option>
+						<option value="Dec">Declination</option>
+						<option value="Distance">Distance (parsecs)</option>
+						<option value="PMRA">Proper Motion RA</option>
+						<option value="PMDec">Proper Motion per JC</option>
+						<option value="RV"> Radial Velocity</option>
+						<option value="Mag">Visual Magnitude</option>
+						<option value="AbsMag">Absolute Magnitude</option>
+						<option value="Spectrum">Spectrum</option>
+						<option value="ColorIndex">Color Index</option>
+						<option value="X"> X Coordinate</option>
+						<option value="Y"> Y Coordinate</option>
+						<option value="Z">Z Coordinate</option>
+						<option value="VX">X Velocity</option>
+						<option value="VY">Y Velocity</option>
+						<option value="VZ">Z Velocity</option>
+                   </select>
+                </div>
+				<div id="Y" class="control">
+					  <h2>Y Axis: </h2>
+					 <select id="y">
+						<option value="RA">Right Ascension</option>
+						<option value="Dec">Declination</option>
+						<option value="Distance">Distance (parsecs)</option>
+						<option value="PMRA">Proper Motion RA</option>
+						<option value="PMDec">Proper Motion per JC</option>
+						<option value="RV"> Radial Velocity</option>
+						<option value="Mag">Visual Magnitude</option>
+						<option value="AbsMag">Absolute Magnitude</option>
+						<option value="Spectrum">Spectrum</option>
+						<option value="ColorIndex">Color Index</option>
+						<option value="X"> X Coordinate</option>
+						<option value="Y"> Y Coordinate</option>
+						<option value="Z">Z Coordinate</option>
+						<option value="VX">X Velocity</option>
+						<option value="VY">Y Velocity</option>
+						<option value="VZ">Z Velocity</option>
+                   </select>
+				</div>
+				<div  class="control">
+					<button id="submit">Graph It</button>
+				</div>
+
+        </section>
+    </div>
+</body>
+</html>

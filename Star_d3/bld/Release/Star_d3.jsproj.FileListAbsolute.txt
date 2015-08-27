@@ -1,0 +1,15 @@
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bin\Release\AppxManifest.xml
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bin\Release\Star_d3.build.appxrecipe
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\priconfig.xml
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\priconfig.xml.intermediate
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\layout.resfiles
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\layout.resfiles.intermediate
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\resources.resfiles
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\resources.resfiles.intermediate
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\pri.resfiles
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\pri.resfiles.intermediate
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\qualifiers.txt
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\qualifiers.txt.intermediate
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Release\ProjectArchitectures.txt
+C:\Users\nathan\Documents\Visual Studio 2013\Projects\Star_d3\Star_d3\bin\Release\ReverseMap\resources.pri

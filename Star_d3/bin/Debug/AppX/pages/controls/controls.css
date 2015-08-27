@@ -1,0 +1,18 @@
+﻿.controls section[role=main] {
+    margin-left: 10px;
+    margin-right: 10px;
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+.control{
+	margin-top:20px;
+	height:80%;
+	width:20%;
+	float:left;
+}
+
+#submit{
+	margin: 100px;
+	}

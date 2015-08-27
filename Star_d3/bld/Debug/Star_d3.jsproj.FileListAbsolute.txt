@@ -1,0 +1,15 @@
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bin\Debug\ReverseMap\resources.pri
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bin\Debug\AppxManifest.xml
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bin\Debug\Star_d3.build.appxrecipe
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\priconfig.xml
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\priconfig.xml.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\layout.resfiles
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\layout.resfiles.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\resources.resfiles
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\resources.resfiles.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\pri.resfiles
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\pri.resfiles.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\qualifiers.txt
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\qualifiers.txt.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\nathan\documents\visual studio 2013\Projects\Star_d3\Star_d3\bld\Debug\ProjectArchitectures.txt

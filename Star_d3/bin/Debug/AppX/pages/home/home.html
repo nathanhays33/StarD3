@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <script src="/js/d3.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+</head>
+<body>
+	
+<!-- Button that launches the confirmation Flyout. -->
+             <div id="leftPanel">
+                  <button id="edit">Edit</button>
+				  <p id="yAxisLabel"></p>
+			</div>
+            <div id='scatter-load'>
+            </div>
+			<p id="xAxisLabel"></p>
+
+
+            <!-- Confirmation Flyout. -->
+            <div id="confirmFlyout" data-win-control="WinJS.UI.Flyout" aria-label="{Confirm purchase flyout}">
+                <div id="color" class="control">
+                    <h2>Color:</h2>
+                    <select id="color">
+                        <option value="ColorIndex">Color Index</option>
+                        <option value="X"> X Coordinate</option>
+                        <option value="Y"> Y Coordinate</option>
+                        <option value="Z">Z Coordinate</option>
+                        <option value="RA">Right Ascension</option>
+                        <option value="Dec">Declination</option>
+                        <option value="Distance">Distance (parsecs)</option>
+                        <option value="PMRA">Proper Motion RA</option>
+                        <option value="PMDec">Proper Motion per JC</option>
+                        <option value="RV"> Radial Velocity</option>
+                        <option value="Mag">Visual Magnitude</option>
+                        <option value="AbsMag">Absolute Magnitude</option>
+                        <option value="Spectrum">Spectrum</option>
+                        <option value="VX">X Velocity</option>
+                        <option value="VY">Y Velocity</option>
+                        <option value="VZ">Z Velocity</option>
+                    </select>
+                </div>
+                <div id="label" class="control">
+                    <h2>Label:</h2>
+                    <select id=" label">
+                        <option value="ProperName">Proper Name</option>
+                        <option value="BayerFlamsteed">Bayer Flmsteed</option>
+                        <option value="Gliese">Distance (parsecs)</option>
+                        <option value="HR">Proper Motion RA</option>
+                        <option value="HD">Proper Motion per JC</option>
+                        <option value="HIP"> HIP</option>
+                        <option value="Spectrum">Spectrum</option>
+
+                        <option value="null">None</option>
+                    </select>
+                </div>
+                <div id="X" class="control">
+                    <h2>X Axis:</h2>
+                    <select id="x">
+                        <option value="VX">X Velocity</option>
+                        <option value="VY">Y Velocity</option>
+                        <option value="VZ">Z Velocity</option>
+                        <option value="RA">Right Ascension</option>
+                        <option value="Dec">Declination</option>
+                        <option value="Distance">Distance (parsecs)</option>
+                        <option value="PMRA">Proper Motion RA</option>
+                        <option value="PMDec">Proper Motion per JC</option>
+                        <option value="RV"> Radial Velocity</option>
+                        <option value="Mag">Visual Magnitude</option>
+                        <option value="AbsMag">Absolute Magnitude</option>
+                        <option value="ColorIndex">Color Index</option>
+                        <option value="X"> X Coordinate</option>
+                        <option value="Y"> Y Coordinate</option>
+                        <option value="Z">Z Coordinate</option>
+
+                    </select>
+                    <p>Zoom</p><input type="range" id="xZoom" min="1"/>
+                </div>
+                <div id="Y" class="control">
+                    <h2>Y Axis: </h2>
+                    <select id="y">
+                        <option value="RA">Right Ascension</option>
+                        <option value="Dec">Declination</option>
+                        <option value="Distance">Distance (parsecs)</option>
+                        <option value="PMRA">Proper Motion RA</option>
+                        <option value="PMDec">Proper Motion per JC</option>
+                        <option value="RV"> Radial Velocity</option>
+                        <option value="Mag">Visual Magnitude</option>
+                        <option value="AbsMag">Absolute Magnitude</option>
+                        <option value="ColorIndex">Color Index</option>
+                        <option value="X"> X Coordinate</option>
+                        <option value="Y"> Y Coordinate</option>
+                        <option value="Z">Z Coordinate</option>
+                        <option value="VX">X Velocity</option>
+                        <option value="VY">Y Velocity</option>
+                        <option value="VZ">Z Velocity</option>
+                    </select>
+                    <p>Zoom</p><input type="range" min="1"  id="yZoom"/>
+                </div>
+                <p>Stars to Display </p><input type="range" min="1" max="119616"  value ="200" id="StarCount" />
+                <div class="control">
+                    <button id="moreInformation" style="float:left; font-size:xx-small">More Info (Opens in Browser)</button>
+                    <button id="submit" style="float:left; margin-left:10px">Graph It</button>
+                </div>
+
+            </div>
+
+
+</body>
+</html>

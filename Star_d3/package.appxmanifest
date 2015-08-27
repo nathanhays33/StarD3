@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <Identity Name="44277greenbizkit33.StarScatterPlot" Version="1.1.0.7" Publisher="CN=8F6A0F10-E6BD-4DB0-8B3F-1272D1F47666" />
+  <Properties>
+    <DisplayName>Star Scatter Plot</DisplayName>
+    <PublisherDisplayName>greenbizkit33</PublisherDisplayName>
+    <Logo>images\star_d3_icon_mid.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="Star Plotter" Description="Plot stars from a database of 119 thousand stars using many dimensions. Click on individual stars to get more infomation." ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\star_d3_icon_large.png" Square30x30Logo="images\star_d3_icon_small.png">
+        <m2:DefaultTile ShortName="Large Icon">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\Star_d3_splash.png" BackgroundColor="black" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Blend" Version="12.0.41002.1" />
+  </build:Metadata>
+</Package>

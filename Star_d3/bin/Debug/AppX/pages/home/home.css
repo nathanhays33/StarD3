@@ -1,0 +1,33 @@
+﻿.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#scatter-load{
+width:93%;
+height:90%;
+float:left;
+}
+
+#leftPanel{
+	width:7%;
+    float:left;
+	height:100%;	
+}
+
+#edit{
+	position:relative;
+	top: 60.66px;
+	left: 21px;
+}
+
+#yAxisLabel{
+	position:relative;
+	top: 172px;
+	left: 20px;
+}
+
+#xAxisLabel{
+	margin-left:150px;
+	}
+	
